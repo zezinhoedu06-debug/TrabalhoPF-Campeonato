@@ -32,5 +32,7 @@ cabal run campeonato
 - Desempate: pontos, depois diferença de golos, depois golos marcados.
 
 ## Grupo
-- Nome 1 (nº)
-- Nome 2 (nº)
+- Diogo Campos (al2024152174)
+- Diogo Gonçalves (al2025153043)
+- José Silva (al2025166886)
+
