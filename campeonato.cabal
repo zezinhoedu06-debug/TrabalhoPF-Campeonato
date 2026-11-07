@@ -1,0 +1,19 @@
+cabal-version:      2.4
+name:               campeonato
+version:            0.1.0.0
+synopsis:           Gestao de um campeonato de futebol (Fase 1)
+build-type:         Simple
+
+library
+    exposed-modules:  Model, Domain, SampleData
+    hs-source-dirs:   src
+    build-depends:    base >=4 && <5
+    default-language: Haskell2010
+    ghc-options:      -Wall
+
+executable campeonato
+    main-is:          Main.hs
+    hs-source-dirs:   app
+    build-depends:    base >=4 && <5, campeonato
+    default-language: Haskell2010
+    ghc-options:      -Wall
